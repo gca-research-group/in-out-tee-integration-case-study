@@ -107,7 +107,7 @@ d) **free:** time taken to release the memory block back into the main memory.
 As shown in Figure 1, we use blocks of `100, 200, 300,...,100 000 MB` as large blocks of memory. Blocks of these sizes are typical of applications that process images and access databases.
 
 
-![memory.](https://github.com/gca-research-group/in-out-tee-integration-case-study/blob/main/figs/memory.png)
+![memory.](./figs/memory.png)
 
 *Figure 1: Performance of memory operations on memory blocks of different sizes.*
 
