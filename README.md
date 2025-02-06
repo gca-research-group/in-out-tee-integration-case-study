@@ -89,7 +89,7 @@ To collect metrics we execute a C program compiled and executed without compartm
   ```
 
 - **Compilation and execution with compartments:**  
-  [memory-in-experiment.c](https://github.com/gca-research-group/tee-morello-performance-experiments/blob/main/memory-performance/inside-tee-execution/memory-in-experiment.c).
+  [memory-in-experiment.c](https://github.com/gca-research-group/in-out-tee-integration-case-study/blob/main/outside-tee-exection/memory-out-experiment.c).
 
   ```bash
   $ clang-morello -march=morello+c64 -mabi=purecap -o memory-in-experiment memory-in-experiment.c -lm
