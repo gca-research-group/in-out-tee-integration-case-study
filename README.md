@@ -193,9 +193,8 @@ The metrics collected are stored in two separate CSV files: [memory-in-experimen
 Plots of the results from Tables 2 and 3 shown in Figures 2 and 3. Full records are available from [memory-in-experiment-result.csv](https://github.com/gca-research-group/tee-morello-performance-experiments/blob/main/memory-performance/inside-tee-execution/memory-in-experiment-resuls.csv) and [memory-out-experiment-result.csv](https://github.com/gca-research-group/tee-morello-performance-experiments/blob/main/memory-performance/outside-tee-exection/memory-out-experiment-resuls.csv).
 
 
-<p align="center">
-  <img src="./figs/boxplot_allocate_rd_wr_free_mem.png" alt="Dispersion of the time to execute allocate, write, read, and free operations" width="100%"/>
-</p>
-<p align="center"><em>Figure 3: Dispersion of the time to execute allocate, write, read, and free operations.</em></p>
+![memory.](./figs/boxplot_allocate_rd_wr_free_mem.png)
+
+*Figure 3: Dispersion of the time to execute allocate, write, read, and free operations.*
 
 
