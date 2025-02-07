@@ -137,7 +137,7 @@ At each iteration, the memory allocation time is measured with the time function
 
 ## 3.1. Results 
 
-The metrics collected are stored in two separate CSV files: [memory-in-experiment-results.csv]([https://github.com/gca-research-group/tee-morello-performance-experiments/blob/main/cpu-performance/inside-tee-execution/cpu_in-experiment-result.csv](https://github.com/gca-research-group/in-out-tee-integration-case-study/blob/main/inside-tee-execution/memory-in-experiment-results.csv)) for the run inside a compartment. The file [memory-out-experiment-results.csv](https://github.com/gca-research-group/in-out-tee-integration-case-study/blob/main/outside-tee-exection/memory-out-experiment-results.csv) collects metrics of the run without compartments. We calculate the average time that it takes to allocate, write, read and free for  each block size of 100 MB, 200 MB, 300 MB, etc.).The results are summarised in Tables 2 and 3.
+The metrics collected are stored in two separate CSV files: [memory-in-experiment-results.csv](https://github.com/gca-research-group/in-out-tee-integration-case-study/blob/main/inside-tee-execution/memory-in-experiment-results.csv) for the run inside a compartment. The file [memory-out-experiment-results.csv](https://github.com/gca-research-group/in-out-tee-integration-case-study/blob/main/outside-tee-exection/memory-out-experiment-results.csv) collects metrics of the run without compartments. We calculate the average time that it takes to allocate, write, read and free for  each block size of 100 MB, 200 MB, 300 MB, etc.).The results are summarised in Tables 2 and 3.
 
 
 <!--<div align="center">
