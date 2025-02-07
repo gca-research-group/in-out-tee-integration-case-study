@@ -211,10 +211,8 @@ If needed, these Python scripts can be used to summarise the raw collected metri
 
 ## 4.1. Python scripst for summary views
 
-
-Summarise memory performance results
-
-
+- [inside-tee-execution](https://github.com/gca-research-group/in-out-tee-integration-case-study/tree/main/inside-tee-execution/summarise-results)
+- [outside-tee-execution](https://github.com/gca-research-group/in-out-tee-integration-case-study/tree/main/outside-tee-exection/summarise-results)
 
 
 ## 4.2. Python script for plotting
