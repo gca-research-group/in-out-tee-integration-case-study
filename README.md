@@ -26,7 +26,6 @@ We utilise a Morello Board, physically located in Toronto. A laptop connected to
 | Tool                 | proccontrol (for CHERI compartments)                | `proccontrol -m cheric18n -s enable ./binary`   |
 | Access               | Remote via SSH                                      | `ssh -i private_key user@server`               |
 
-</div>
 
 It is worth explaining that, as shown in the CSV files available in this repository, we repeated the execution of each operation 100 times during our experiments, collected the measurements, and averaged the results. The choice of 100 repetitions was based on the Central Limit Theorem, which suggests that a sample size of 100 is often adequate to yield a statistically meaningful average [Statistics How To 2023](https://www.statisticshowto.com/probability-and-statistics/normal-distributions/central-limit-theorem-definition-examples/).
 
@@ -159,8 +158,6 @@ The metrics collected are stored in two separate CSV files: [memory-in-experimen
 | 900                 | 288 ± 1,536.92          | 2,549,115 ± 258.37  | 2,548,205 ± 196.83 | 816 ± 1,579.74     |
 | 1000                | 248 ± 1,543.50          | 2,832,372 ± 337.74  | 2,831,332 ± 167.56 | 444 ± 1,003.29     |
 
-</div>
-
 
 <!--<div align="center">
 <p><em>Table 3: Performance of memory operations executed outside a compartment, including mean and standard deviation.</em></p>-->
@@ -179,9 +176,6 @@ The metrics collected are stored in two separate CSV files: [memory-in-experimen
 | 800                 | 5 ± 1.73                | 2,260,662 ± 41.09   | 2,260,660 ± 53.11  | 18 ± 0.62          |
 | 900                 | 5 ± 0.54                | 2,543,249 ± 47.19   | 2,543,234 ± 42.16  | 18 ± 0.97          |
 | 1000                | 5 ± 0.50                | 2,825,823 ± 47.72   | 2,825,818 ± 41.68  | 18 ± 0.64          |
-
-</div>
-
 
 ![performancememOperations.](./figs/performancememOperations.png)
 
@@ -209,6 +203,7 @@ Plots of the results from Tables 2 and 3 shown in Figures 2 and 3. Full records 
 
 If needed, these Python scripts can be used to summarise the raw collected metrics and present results graphically. They produce aggregated CSV files and comparative plots.
 
+
 ## 4.1. Python scripst for summary views
 
 - [inside-tee-execution](https://github.com/gca-research-group/in-out-tee-integration-case-study/tree/main/inside-tee-execution/summarise-results)
@@ -217,8 +212,5 @@ If needed, these Python scripts can be used to summarise the raw collected metri
 
 ## 4.2. Python script for plotting
 
-
-
-
-
+- [plot-graph](https://github.com/gca-research-group/in-out-tee-integration-case-study/tree/main/plot-graph)
 
