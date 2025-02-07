@@ -204,3 +204,23 @@ Plots of the results from Tables 2 and 3 shown in Figures 2 and 3. Full records 
 *Figure 3: Dispersion of the time to execute allocate, write, read, and free operations.*
 
 
+
+# 4. Python scripts that can help to summarise and visualise results
+
+If needed, these Python scripts can be used to summarise the raw collected metrics and present results graphically. They produce aggregated CSV files and comparative plots.
+
+## 4.1. Python scripst for summary views
+
+
+Summarise memory performance results
+
+
+
+
+## 4.2. Python script for plotting
+
+
+
+
+
+
