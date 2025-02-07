@@ -194,6 +194,9 @@ Plots of the results from Tables 2 and 3 shown in Figures 2 and 3.
 *Figure 2: Time to execute allocate, write, read and release memory operations.*
 
 
+The results show that executions within the compartment exhibit higher latency and significant unpredictability, particularly in memory allocation and release operations. The graphs in Figure 2 highlight the linear behaviour of write and read times while also emphasising the increasing overhead inside the compartment as block sizes grow. Meanwhile, the boxplot in Figure 3 illustrates considerable dispersion, with long tails and outliers particularly evident in allocation and free operations. Outside the compartments, execution times remain stable and predictable. This unpredictability in the memory compartment can be attributed to the overhead of TEE control and security mechanisms, which add computational costs and variability to memory management.
+
+
 ![memory.](./figs/boxplot_allocate_rd_wr_free_mem.png)
 
 *Figure 3: Dispersion of the time to execute allocate, write, read, and free operations.*
