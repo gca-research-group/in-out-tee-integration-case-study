@@ -177,9 +177,6 @@ The metrics collected are stored in two separate CSV files: [memory-in-experimen
 | 900                 | 5 ± 0.54                | 2,543,249 ± 47.19   | 2,543,234 ± 42.16  | 18 ± 0.97          |
 | 1000                | 5 ± 0.50                | 2,825,823 ± 47.72   | 2,825,818 ± 41.68  | 18 ± 0.64          |
 
-![performancememOperations.](./figs/performancememOperations.png)
-
-*Figure 2: Time to execute allocate, write, read and release memory operations.*
 
 
 - **Allocation time:** A comparison of Table 3 with Table 2 reveals that allocating memory blocks inside compartments takes significantly longer. For example, the allocation of a 100 MB block takes 2 ms outside a compartment, while it takes 93 ms inside a compartment. Allocation times outside compartments remain stable, ranging from 2 to 5 ms across all block sizes. In contrast, allocation times inside compartments exhibit considerable variability, ranging from 93 ms for 100 MB blocks to 288 ms for 900 MB blocks, with fluctuations influenced by block size. This variability highlights the overhead introduced by compartmentalisation mechanisms.
@@ -191,6 +188,10 @@ The metrics collected are stored in two separate CSV files: [memory-in-experimen
 - **Free time:** The metrics indicate a stark contrast in memory release times between the two configurations. Table 3 shows that freeing memory outside a compartment is highly efficient, with times ranging from 6 to 18 ms across block sizes. In contrast, Table 2 highlights the significant overhead when freeing memory inside a compartment, with times ranging from 89 ms for 100 MB blocks to 818 ms for 800 MB blocks. The high variability, as reflected by large standard deviations, is attributed to the additional security and management overhead inherent in compartmentalised environments.
 
 Plots of the results from Tables 2 and 3 shown in Figures 2 and 3. 
+
+![performancememOperations.](./figs/performancememOperations.png)
+
+*Figure 2: Time to execute allocate, write, read and release memory operations.*
 
 
 ![memory.](./figs/boxplot_allocate_rd_wr_free_mem.png)
