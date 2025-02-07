@@ -190,7 +190,7 @@ The metrics collected are stored in two separate CSV files: [memory-in-experimen
 
 - **Free time:** The metrics indicate a stark contrast in memory release times between the two configurations. Table 3 shows that freeing memory outside a compartment is highly efficient, with times ranging from 6 to 18 ms across block sizes. In contrast, Table 2 highlights the significant overhead when freeing memory inside a compartment, with times ranging from 89 ms for 100 MB blocks to 818 ms for 800 MB blocks. The high variability, as reflected by large standard deviations, is attributed to the additional security and management overhead inherent in compartmentalised environments.
 
-Plots of the results from Tables 2 and 3 shown in Figures 2 and 3. Full records are available from [memory-in-experiment-result.csv](https://github.com/gca-research-group/tee-morello-performance-experiments/blob/main/memory-performance/inside-tee-execution/memory-in-experiment-resuls.csv) and [memory-out-experiment-result.csv](https://github.com/gca-research-group/tee-morello-performance-experiments/blob/main/memory-performance/outside-tee-exection/memory-out-experiment-resuls.csv).
+Plots of the results from Tables 2 and 3 shown in Figures 2 and 3. 
 
 
 ![memory.](./figs/boxplot_allocate_rd_wr_free_mem.png)
