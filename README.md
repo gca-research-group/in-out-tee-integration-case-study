@@ -7,8 +7,10 @@ This repository evaluates compartments created using the library-based compartme
 
 We utilise a Morello Board, physically located in Toronto. A laptop connected to the network in Brazil is used to access the Morello Board via an SSH connection. Presented below is the primary configuration of the Morello Board, along with additional parameters, including the CheriBSD commands required to retrieve these configurations directly from the board. We specify the hardware and software configurations of the Morello Board used in the experiments in Table 1.
 
-<div align="center">
-<p><em>Table 1. Morello board configuration parameters used in the experiments and the online cheriBSD commands to output them..</em></p>
+<!--<div align="center">
+<p><em>Table 1. Morello board configuration parameters used in the experiments and the online cheriBSD commands to output them.</em></p>-->
+
+*Table 1. Morello board configuration parameters used in the experiments and the online cheriBSD commands to output them.*
 
 | **Component**       | **Specification**                                   | **Command**                                      |
 |----------------------|-----------------------------------------------------|-------------------------------------------------|
