@@ -27,7 +27,7 @@ We utilise a Morello Board, physically located in Toronto. A laptop connected to
 | Access               | Remote via SSH                                      | `ssh -i private_key user@server`               |
 
 
-It is worth explaining that, as shown in the CSV files available in this repository, we repeated the execution of each operation 100 times during our experiments, collected the measurements, and averaged the results. The choice of 100 repetitions was based on the Central Limit Theorem, which suggests that a sample size of 100 is often adequate to yield a statistically meaningful average [Statistics How To 2023](https://www.statisticshowto.com/probability-and-statistics/normal-distributions/central-limit-theorem-definition-examples/).
+It is worth explaining that, as shown in the CSV files available in this repository, we repeated the execution of each operation 100 times during our experiments, collected the measurements, and averaged the results. The choice of 100 repetitions was based on the Central Limit Theorem, which suggests that a sample size of 100 is often adequate to yield a statistically meaningful average [Dudley 2014](https://doi.org/10.1017/CBO9781139014830).
 
 
 ## 1.1. Compilation and Execution
