@@ -141,8 +141,10 @@ At each iteration, the memory allocation time is measured with the time function
 The metrics collected are stored in two separate CSV files: [memory-in-experiment-results.csv]([https://github.com/gca-research-group/tee-morello-performance-experiments/blob/main/cpu-performance/inside-tee-execution/cpu_in-experiment-result.csv](https://github.com/gca-research-group/in-out-tee-integration-case-study/blob/main/inside-tee-execution/memory-in-experiment-results.csv)) for the run inside a compartment. The file [memory-out-experiment-results.csv](https://github.com/gca-research-group/in-out-tee-integration-case-study/blob/main/outside-tee-exection/memory-out-experiment-results.csv) collects metrics of the run without compartments. We calculate the average time that it takes to allocate, write, read and free for  each block size of 100 MB, 200 MB, 300 MB, etc.).The results are summarised in Tables 2 and 3.
 
 
-<div align="center">
-<p><em>Table 2: Performance of memory operations executed inside a compartment, including mean and standard deviation..</em></p>
+<!--<div align="center">
+<p><em>Table 2: Performance of memory operations executed inside a compartment, including mean and standard deviation.</em></p>-->
+
+*Table 2: Performance of memory operations executed inside a compartment, including mean and standard deviation.*
 
 | **Block Size (MB)** | **Allocation Time (ms)** | **Write Time (ms)** | **Read Time (ms)** | **Free Time (ms)** |
 |---------------------|--------------------------|---------------------|--------------------|--------------------|
@@ -160,8 +162,10 @@ The metrics collected are stored in two separate CSV files: [memory-in-experimen
 </div>
 
 
-<div align="center">
-<p><em>Table 3: Performance of memory operations executed outside a compartment, including mean and standard deviation.</em></p>
+<!--<div align="center">
+<p><em>Table 3: Performance of memory operations executed outside a compartment, including mean and standard deviation.</em></p>-->
+
+*Table 3: Performance of memory operations executed outside a compartment, including mean and standard deviation.*
 
 | **Block Size (MB)** | **Allocation Time (ms)** | **Write Time (ms)** | **Read Time (ms)** | **Free Time (ms)** |
 |---------------------|--------------------------|---------------------|--------------------|--------------------|
